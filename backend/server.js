@@ -15,8 +15,7 @@ app.use(express.json());
 // mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false }
 // );
 
-
-/** Update way of connection. */
+/* updated the way of connection to MongoDB Atlas */
 mongoose.connect("mongodb+srv://alihaidry:@england@11@friends-database-cluste.mduy0d1.mongodb.net/?retryWrites=true&w=majority&appName=Friends-Database-Cluster00",
 {useNewUrlParser:true}
 );
